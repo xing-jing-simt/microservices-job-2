@@ -14,8 +14,11 @@ Booking API contains the following routes:
 
 On Windows:
 `python -m venv booking_api_venv`
+
 `booking_api_venv\Scripts\activate`
+
 `python -m pip install -r requirements.txt`
+
 `python -m pip install -e .`
 
 ## How to run
@@ -24,4 +27,5 @@ On Windows:
 
 On Windows:
 `set FLASK_APP=booking_api.server`
+
 `python -m flask run`
