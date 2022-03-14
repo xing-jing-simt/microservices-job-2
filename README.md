@@ -13,6 +13,7 @@ Booking API contains the following routes:
 3. Navigate to project root and install `booking_api` package into venv. 
 
 On Windows:
+
 `python -m venv booking_api_venv`
 
 `booking_api_venv\Scripts\activate`
@@ -26,6 +27,7 @@ On Windows:
 2. Run `flask run` to start the server in production mode. 
 
 On Windows:
+
 `set FLASK_APP=booking_api.server`
 
 `python -m flask run`
