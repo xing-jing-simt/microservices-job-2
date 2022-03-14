@@ -111,6 +111,7 @@ def put_thing(path: BookingPath, body: SingleBooking):
     # TODO if booking == existing booking from SQL, return jsonify(NoBooking.empty_json()), 204
     # TODO if booking != existing booking from SQL, return jsonify(new_booking), 201
     query = f'update bookings set date="{date}", time="{time}", pick_up_pt="{pick_up_pt}", dest="{dest}", curr_lat="{curr_lat}", curr_long="{curr_long}" where booking_id={booking_id};'
+    query_db(query)
     # if id != thing["id"]:
     #     return "Bad Request", 400
     # all_bookings[thing["id"]] = thing["detail"]
