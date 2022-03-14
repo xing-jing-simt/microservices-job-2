@@ -1,10 +1,10 @@
 ## Booking API
 Booking API contains the following routes:
-- GET /api/things/
-- GET /api/things/{id}
-- POST /api/things
-- PUT /api/things/{id}
-- DELETE /api/things/{id}
+- GET /api/bookings/
+- GET /api/bookings/{id}
+- POST /api/bookings
+- PUT /api/bookings/{id}
+- DELETE /api/bookings/{id}
 - GET /openapi/swagger
 
 ## How to install
